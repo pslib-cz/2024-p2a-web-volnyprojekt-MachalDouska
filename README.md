@@ -17,4 +17,5 @@ Na objednávku – speciální modely na míru;
 O nás – informace o firmě; 
 Kontakt – kontaktní formulář, adresa, telefon
 
-# Figma: https://www.figma.com/design/YAsR8AkcEDPAJy05cbTiga/DoušaMichal?node-id=0-1&m=dev&t=1GLE4vD4mvqTtk3B-1
+# Figma: 
+https://www.figma.com/design/YAsR8AkcEDPAJy05cbTiga/DoušaMichal?node-id=0-1&m=dev&t=1GLE4vD4mvqTtk3B-1
