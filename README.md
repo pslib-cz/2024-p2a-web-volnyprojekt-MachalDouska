@@ -5,9 +5,9 @@ Webová prezentace autosalonu zaměřeného na prodej moderních a výkonných s
 Cílem je oslovit zákazníky z vyšší příjmové skupiny, nabídnout široký výběr exkluzivních modelů a usnadnit objednávku či rezervaci vozidel online.
 
 # Očekávaný obsah a funkce webu: 
-Katalog aktuálně dostupných vozů\ 
-Možnost objednat vůz\ 
-Informace o značce\
+Katalog aktuálně dostupných vozů  
+Možnost objednat vůz  
+Informace o značce  
 Kontaktní formulář
 
 # Struktura webu: 
