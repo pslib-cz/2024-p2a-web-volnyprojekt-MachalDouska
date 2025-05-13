@@ -1,4 +1,7 @@
+
+import 'normalize.css'
 import '../styles/style.css'
+import '../styles/fonts.css'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
