@@ -7,16 +7,18 @@ p {
 }
 
 h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.375rem;
     color: var(--text);
 }
 
 h2 {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--text);
+    text-align: center;
 }
 
 h3 {
