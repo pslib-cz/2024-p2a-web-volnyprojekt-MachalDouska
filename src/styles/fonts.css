@@ -23,6 +23,7 @@ h2 {
 
 h3 {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 1.75rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--black);
 }

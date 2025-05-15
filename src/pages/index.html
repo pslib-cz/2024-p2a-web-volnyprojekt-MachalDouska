@@ -8,41 +8,85 @@
   <title>Royal Motors</title>
 </head>
 
-<body>
-  <div id="app">
-    <div class="page_header">
-      <img src="/icons/logo.svg" alt="Logo Royal Motors" class="header_logo">
-      <h1>Royal Motors</h1>
-      <div class="hamburger-row">
-        <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-      <nav class="hamburger-nav hamburger-zone">
-        <ul>
-          <li class="hamburger-content">
-            <h2>Home</h2>
-          </li>
-          <li class="hamburger-content">
-            <h2>Koupit</h2>
-          </li>
-          <li class="hamburger-content">
-            <h2>Prodat</h2>
-          </li>
-          <li class="hamburger-content">
-            <h2>Rezervace</h2>
-          </li>
-          <li class="hamburger-content">
-            <h2>Kontakt</h2>
-          </li>
-        </ul>
-      </nav>
+<body class="body">
+  <div class="page__header">
+    <img src="/icons/logo.svg" alt="Logo Royal Motors" class="header__logo">
+    <h1>Royal Motors</h1>
+    <div class="hamburger-row">
+      <a href="javascript:void(0)" class="hamburger hamburger-btn hamburger-zone">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </div>
+    <nav class="hamburger-nav hamburger-zone">
+      <ul>
+        <li class="hamburger-content">
+          <h2>Home</h2>
+        </li>
+        <li class="hamburger-content">
+          <h2>Koupit</h2>
+        </li>
+        <li class="hamburger-content">
+          <h2>Prodat</h2>
+        </li>
+        <li class="hamburger-content">
+          <h2>Rezervace</h2>
+        </li>
+        <li class="hamburger-content">
+          <h2>Kontakt</h2>
+        </li>
+      </ul>
+    </nav>
   </div>
+  <main class="main">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/images/swiper1.jpg" alt="Porsche GT3 RS"></div>
+        <div class="swiper-slide"><img src="/images/swiper2.jpg" alt="Porsche Panamera"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <section class="page__categories">
+      <h3 class="categories__title">Vyberte si z kategorií</h3>
+      <div class="categories">
+        <div class="category__card">
+          
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__info">
+        <p class="footer__label"><b>Royal Motors</b></p>
+        <p class="footer__item">
+          <a href="#" class="footer__link">royal.motors@support.com</a>
+        </p>
+      </div>
+      <div class="footer__info">
+        <p class="footer__label footer__label-owner"><b>Michal Douša</b></p>
+        <p class="footer__item">
+          <a href="#" class="footer__link">+420 111 222 333</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">Copyright © 2025 Royal Motors</p>
+      <div class="footer__social">
+        <a href="#" class="footer__social-link"><img src="/icons/fb.svg" alt="Facebook" class="footer__icon" /></a>
+        <a href="#" class="footer__social-link"><img src="/icons/yt.svg" alt="YouTube" class="footer__icon" /></a>
+        <a href="#" class="footer__social-link"><img src="/icons/ig.svg" alt="Instagram" class="footer__icon" /></a>
+      </div>
+    </div>
+  </footer>
 
   <script type="module" src="/src/scripts/main.js"></script>
+  <script type="module" src="/src/scripts/hamburger.js"></script>
 </body>
 
 </html>
