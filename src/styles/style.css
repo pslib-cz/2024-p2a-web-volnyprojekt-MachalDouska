@@ -4,19 +4,20 @@
   --gray: #4A4A4A;
   --black: #1A1A1A;
   --card: #B8860B;
+  --text-gray: #A0A0A0;
 }
-
+ 
 .body {
   color: var(--text);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
+ 
 .main {
   flex-grow: 1;
 }
-
+ 
 .page__header {
   height: 72px;
   display: flex;
@@ -25,74 +26,123 @@
   padding-left: 16px;
   background-color: var(--background);
 }
-
+ 
 .header__logo {
   width: 50px;
   height: 25px;
-  display: block; 
+  display: block;
   align-items: center;
 }
-
+ 
 .footer {
   background: var(--background);
   color: var(--text);
   padding: 1rem;
-  height: calc(120px - 1rem);
+  height: calc(120px - 2rem);
 }
-
+ 
 .footer__top {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+ 
 .footer__label {
   margin: 0;
   font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--text);
 }
-
+ 
 .footer__label-owner {
   text-align: right;
 }
-
+ 
 .footer__item {
   margin: 0.3rem 0;
 }
-
+ 
 .footer__link {
   color: white;
   text-decoration: none;
+  font-size: 0.875rem;
 }
-
+ 
 .footer__link:hover {
   text-decoration: underline;
 }
-
+ 
 .footer__bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2.25rem;
+  margin-top: 1.25rem;
   flex-wrap: wrap;
 }
-
+ 
 .footer__copyright {
   margin: 0;
   font-size: 0.875rem;
+  color: var(--text);
 }
-
+ 
 .footer__social {
   display: flex;
   gap: 0.5rem;
 }
-
+ 
 .footer__icon {
   width: 24px;
   height: 24px;
 }
-
+ 
 .categories__title {
   text-align: center;
 }
-
-
+ 
+.categories {
+  display: grid;
+}
+ 
+.page__categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.categories__icon {
+  width: 40px;
+  height: 32px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+ 
+.categories__img {
+  height: 70px;
+  width: 176px;
+  margin: 0 auto;
+}
+ 
+.categories__caption {
+  margin: 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+ 
+.categories__count {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-gray);
+}
+ 
+.categories__card {
+  width: 208px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid var(--black);
+  border-radius: 15px;
+}
+ 
