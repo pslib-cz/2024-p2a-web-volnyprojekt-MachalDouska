@@ -1,6 +1,6 @@
 :root {
-    --rotate-time: .25s;
-    --move-time: .15s;
+    --rotate-time: .5s;
+    --move-time: .25s;
 }
 
 @media screen and (max-width: 1199px) {
@@ -18,19 +18,19 @@
     }
 
     .hamburger-nav {
-        overflow: hidden;
-        max-height: 0;
-        transition: max-height var(--move-time) ease;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform var(--move-time) ease;
         position: absolute;
         top: 72px;
         left: 0;
         right: 0;
         background-color: var(--background);
-        z-index: 10;
+        z-index: 100;
     }
 
     .hamburger-nav.active {
-        max-height: 480px;
+        transform: scaleY(1);
     }
 
     .hamburger-nav ul {
@@ -63,6 +63,7 @@
 
     .hamburger-content {
         border-bottom: 2px solid var(--text);
+        padding: 0.625rem;
     }
 
 

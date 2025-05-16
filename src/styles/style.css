@@ -96,31 +96,59 @@
   height: 24px;
 }
  
-.categories__title {
+.page__title {
+  text-align: center;
+  grid-area: title;
+}
+
+.page__title-sell {
+  margin: 1rem;
   text-align: center;
 }
- 
+
+.page__text {
+  margin: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.categories__card-luxury {
+  grid-area: luxury;
+}
+
+.categories__card-sport {
+  grid-area: sport;
+}
+
+.categories__card-new {
+  grid-area: new;
+  background-color: var(--card);
+}
+
+.categories__card-sale {
+  grid-area: sale;
+}
+
 .categories {
   display: grid;
-}
- 
-.page__categories {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
- 
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "title title"
+  "new sale"
+  "luxury sport";
+  place-items: center;
+} 
 .categories__icon {
   width: 40px;
-  height: 32px;
+  height: 40px;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
  
 .categories__img {
-  height: 70px;
-  width: 176px;
-  margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
  
 .categories__caption {
@@ -135,14 +163,34 @@
   font-size: 0.75rem;
   color: var(--text-gray);
 }
+
+.categories__caption-new {
+  color: var(--text);
+  margin: 0;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+ 
+.categories__count-new {
+  color: var(--text);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.75rem;
+}
  
 .categories__card {
-  width: 208px;
+  display: grid;
+  width: calc(208px - 2rem);
   height: auto;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   border: 1px solid var(--black);
   border-radius: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.h2 {
+  text-decoration: none;
 }
  

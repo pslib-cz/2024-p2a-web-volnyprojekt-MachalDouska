@@ -5,6 +5,9 @@
 .swiper-slide img {
     width: 100%;
     height: 342px;
+    display: block;
+    margin: 0;
+    padding: 0;
     object-fit: cover;
 }
 

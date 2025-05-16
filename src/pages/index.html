@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
- 
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Royal Motors</title>
 </head>
- 
+
 <body class="body">
   <div class="page__header">
     <img src="/icons/logo.svg" alt="Logo Royal Motors" class="header__logo">
@@ -22,19 +22,29 @@
     <nav class="hamburger-nav hamburger-zone">
       <ul>
         <li class="hamburger-content">
-          <h2>Home</h2>
+          <a href="#" class="h2">
+            <h2>Home</h2>
+          </a>
         </li>
         <li class="hamburger-content">
-          <h2>Koupit</h2>
+          <a href="./buy.html" class="h2">
+            <h2>Koupit</h2>
+          </a>
         </li>
         <li class="hamburger-content">
-          <h2>Prodat</h2>
+          <a href="./sell.html" class="h2">
+            <h2>Prodat</h2>
+          </a>
         </li>
         <li class="hamburger-content">
-          <h2>Rezervace</h2>
+          <a href="./reservation.html" class="h2">
+            <h2>Rezervace</h2>
+          </a>
         </li>
         <li class="hamburger-content">
-          <h2>Kontakt</h2>
+          <a href="./contacts.html" class="h2">
+            <h2>Kontakt</h2>
+          </a>
         </li>
       </ul>
     </nav>
@@ -49,19 +59,38 @@
       <div class="swiper-button-next"></div>
       <div class="swiper-pagination"></div>
     </div>
- 
-    <h3 class="categories__title">Vyberte si z kategorií</h3>
+
+
     <section class="page__categories">
+      <h3 class="page__title">Vyberte si z kategorií</h3>
       <div class="categories">
-        <div class="categories__card">
-          <img src="/icons/Luxury.svg" class="categories__icon">
+        <div class="categories__card categories__card-new">
+          <img src="/icons/new.svg" class="categories__icon">
+          <img src="/images/newcars.png" class="categories__img">
+          <p class="categories__caption-new">Nové vozy</p>
+          <p class="categories__count-new">(počet)</p>
+        </div>
+        <div class="categories__card categories__card-sale">
+          <img src="/icons/sale.svg" class="categories__icon">
+          <img src="/images/carsonsale.png" class="categories__img">
+          <p class="categories__caption">Zlevněné vozy</p>
+          <p class="categories__count">(počet)</p>
+        </div>
+        <div class="categories__card categories__card-luxury">
+          <img src="/icons/luxury.svg" class="categories__icon">
           <img src="/images/luxurycars.jpg" class="categories__img">
           <p class="categories__caption">Luxusní vozy</p>
           <p class="categories__count">(počet)</p>
         </div>
+        <div class="categories__card categories__card-sport">
+          <img src="/icons/sport.svg" class="categories__icon">
+          <img src="/images/sportcars.jpg" class="categories__img">
+          <p class="categories__caption">Sportovní vozy</p>
+          <p class="categories__count">(počet)</p>
+        </div>
       </div>
     </section>
-   
+
   </main>
   <footer class="footer">
     <div class="footer__top">
@@ -81,16 +110,15 @@
     <div class="footer__bottom">
       <p class="footer__copyright">Copyright © 2025 Royal Motors</p>
       <div class="footer__social">
-        <a href="#" class="footer__social-link"><img src="/icons/fb.svg" alt="Facebook" class="footer__icon" /></a>
-        <a href="#" class="footer__social-link"><img src="/icons/yt.svg" alt="YouTube" class="footer__icon" /></a>
-        <a href="#" class="footer__social-link"><img src="/icons/ig.svg" alt="Instagram" class="footer__icon" /></a>
+        <a href="https://www.facebook.com/" class="footer__social-link"><img src="/icons/fb.svg" alt="Facebook" class="footer__icon" /></a>
+        <a href="https://www.youtube.com/" class="footer__social-link"><img src="/icons/yt.svg" alt="YouTube" class="footer__icon" /></a>
+        <a href="https://www.instagram.com/" class="footer__social-link"><img src="/icons/ig.svg" alt="Instagram" class="footer__icon" /></a>
       </div>
     </div>
   </footer>
- 
+
   <script type="module" src="/src/scripts/main.js"></script>
   <script type="module" src="/src/scripts/hamburger.js"></script>
 </body>
- 
+
 </html>
- 

@@ -5,9 +5,9 @@ import 'swiper/css/pagination'
 
 import 'normalize.css'
 import '../styles/hamburger.css'
-import '../styles/style.css'
 import '../styles/fonts.css'
 import '../styles/swiper.css'
+import '../styles/style.css'
 
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
