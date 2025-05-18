@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.clickable-contact:hover {
   text-decoration: underline;
   color: var(--black);
 }
@@ -120,6 +120,9 @@ a:hover {
 .page__title {
   grid-area: title;
   margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2.5rem;
 }
 
 .page__text {
@@ -221,6 +224,7 @@ a:hover {
   border-radius: 15px;
   height: 100%;
   box-sizing: border-box;
+  max-width: 208px;
 }
 
 
@@ -229,6 +233,6 @@ a:hover {
 }
 
 .contacts {
-  line-height: 4rem;
+  padding-bottom: 4em;
   margin-left: 1rem;
 }
