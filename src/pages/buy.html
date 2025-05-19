@@ -8,7 +8,7 @@
     <title>Royal Motors</title>
 </head>
 
-<body class="body">
+<body class="page">
     <div class="page__header">
         <img src="/icons/logo.svg" alt="Logo Royal Motors" class="header__logo">
         <h1>Royal Motors</h1>
@@ -22,52 +22,93 @@
         <nav class="hamburger-nav hamburger-zone">
             <ul>
                 <li class="hamburger-content">
-                    <a href="./index.html" class="h2"><h2>Home</h2></a>
+                    <a href="./index.html" class="h2">
+                        <h2>Home</h2>
+                    </a>
                 </li>
                 <li class="hamburger-content">
-                    <a href="#" class="h2"><h2>Koupit</h2></a>
+                    <a href="#" class="h2">
+                        <h2>Koupit</h2>
+                    </a>
                 </li>
                 <li class="hamburger-content">
-                    <a href="./sell.html" class="h2"><h2>Prodat</h2></a>
+                    <a href="./sell.html" class="h2">
+                        <h2>Prodat</h2>
+                    </a>
                 </li>
                 <li class="hamburger-content">
-                    <a href="./reservation.html" class="h2"><h2>Rezervace</h2></a>
+                    <a href="./reservation.html" class="h2">
+                        <h2>Rezervace</h2>
+                    </a>
                 </li>
                 <li class="hamburger-content">
-                    <a href="./contacts.html" class="h2"><h2>Kontakt</h2></a>
+                    <a href="./contacts.html" class="h2">
+                        <h2>Kontakt</h2>
+                    </a>
                 </li>
             </ul>
         </nav>
     </div>
-        <main>
-        </main>
-        <footer class="footer">
-            <div class="footer__top">
-                <div class="footer__info">
-                    <p class="footer__label"><b>Royal Motors</b></p>
-                    <p class="footer__item">
-                        <a href="#" class="footer__link">royal.motors@support.com</a>
-                    </p>
+    <main>
+        <section class="page__section">
+            <h3 class="page__title">Pohodlný a bezpečný nákup vozů</h3>
+            <div class="categories">
+                <div class="categories__card categories__card-new">
+                    <img src="/images/mercedes.jpg" class="categories__img" alt="Kategorie nových vozů">
+                    <p class="categories__caption-new">Nové vozy</p>
+                    <p class="categories__count-new">(počet)</p>
                 </div>
-                <div class="footer__info">
-                    <p class="footer__label footer__label-owner"><b>Michal Douša</b></p>
-                    <p class="footer__item">
-                        <a href="#" class="footer__link">+420 111 222 333</a>
-                    </p>
+                <div class="categories__card categories__card-sale">
+                    <img src="/icons/sale.svg" class="categories__icon" alt="Ikona vozů ve výprodeji">
+                    <img src="/images/carsonsale.png" class="categories__img" alt="Kategorie vozů ve výprodeji">
+                    <p class="categories__caption">Zlevněné vozy</p>
+                    <p class="categories__count">(počet)</p>
+                </div>
+                <div class="categories__card categories__card-luxury">
+                    <img src="/icons/Luxury.svg" class="categories__icon" alt="Ikona luxusních vozů">
+                    <img src="/images/luxurycars.jpg" class="categories__img" alt="Kategorie luxusních vozů">
+                    <p class="categories__caption">Luxusní vozy</p>
+                    <p class="categories__count">(počet)</p>
+                </div>
+                <div class="categories__card categories__card-sport">
+                    <img src="/icons/sport.svg" class="categories__icon" alt="Ikona sportovních vozů">
+                    <img src="/images/sportcars.jpg" class="categories__img" alt="Kategorie sportovních vozů">
+                    <p class="categories__caption">Sportovní vozy</p>
+                    <p class="categories__count">(počet)</p>
                 </div>
             </div>
-            <div class="footer__bottom">
-                <p class="footer__copyright">Copyright © 2025 Royal Motors</p>
-                <div class="footer__social">
-                    <a href="https://www.facebook.com/" class="footer__social-link"><img src="/icons/fb.svg" alt="Facebook" class="footer__icon" /></a>
-                    <a href="https://www.youtube.com/" class="footer__social-link"><img src="/icons/yt.svg" alt="YouTube" class="footer__icon" /></a>
-                    <a href="https://www.instagram.com/" class="footer__social-link"><img src="/icons/ig.svg" alt="Instagram" class="footer__icon" /></a>
-                  </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__info">
+                <p class="footer__label"><b>Royal Motors</b></p>
+                <p class="footer__item">
+                    <a href="#" class="footer__link">royal.motors@support.com</a>
+                </p>
             </div>
-        </footer>
+            <div class="footer__info">
+                <p class="footer__label footer__label-owner"><b>Michal Douša</b></p>
+                <p class="footer__item">
+                    <a href="#" class="footer__link">+420 111 222 333</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__copyright">Copyright © 2025 Royal Motors</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" class="footer__social-link"><img src="/icons/fb.svg" alt="Facebook"
+                        class="footer__icon" /></a>
+                <a href="https://www.youtube.com/" class="footer__social-link"><img src="/icons/yt.svg" alt="YouTube"
+                        class="footer__icon" /></a>
+                <a href="https://www.instagram.com/" class="footer__social-link"><img src="/icons/ig.svg"
+                        alt="Instagram" class="footer__icon" /></a>
+            </div>
+        </div>
+    </footer>
 
-        <script type="module" src="/src/scripts/main.js"></script>
-        <script type="module" src="/src/scripts/hamburger.js"></script>
+    <script type="module" src="/src/scripts/main.js"></script>
+    <script type="module" src="/src/scripts/hamburger.js"></script>
 </body>
 
 </html>
