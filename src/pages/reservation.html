@@ -20,7 +20,7 @@
             </a>
         </div>
         <nav class="hamburger-nav hamburger-zone">
-            <ul>
+            <menu>
                 <li class="hamburger-content">
                     <a href="./index.html" class="h2">
                         <h2>Home</h2>
@@ -46,7 +46,7 @@
                         <h2>Kontakt</h2>
                     </a>
                 </li>
-            </ul>
+            </menu>
         </nav>
     </div>
     <main>
@@ -59,14 +59,13 @@
                 by Vám mělo od našeho týmu z emailu “royal.motors@support.com” přijít potvrzení o učinění rezervace.
                 Ozveme se Vám, jakmile bude vůz dostupný.</p>
             <form action="#" method="post" class="page__form">
-                <p class="form__title">Jméno</p>
+                <label class="form__title">Jméno</label>
                 <input class="form__text" type="text" name="name" required>
-                <p class="form__title">Přijmení</p>
+                <label class="form__title">Přijmení</label>
                 <input class="form__text" type="text" name="surname" required>
-                <p class="form__title">Emailová adresa</p>
+                <label class="form__title">Emailová adresa</label>
                 <input class="form__text" type="email" name="email" required>
-                <label for="car-brand"></label>
-                <p class="form__title">Značka vozu</p>
+                <label for="car-brand" class="form__title">Značka vozu</label>
                 <select id="car-brand" class="car-brand form__select">
                     <option value="">Vyberte značku</option>
                     <option value="porsche">Porsche</option>
@@ -74,12 +73,11 @@
                     <option value="lamborghini">Lamborghini</option>
                     <option value="ferrari">Ferrari</option>
                 </select>
-                <label for="car-model" class="car-model"></label>
-                <p class="form__title">Značka vozu</p>
+                <label for="car-model" class="car-model form__title">Značka vozu</label>
                 <select id="car-model" class="form__select">
                     <option>Vyberte značku</option>
                 </select>
-                <a class="form__btn" href="#">Odeslat</a>
+                <input type="submit" class="form__btn" href="#">
             </form>
         </section>
     </main>
