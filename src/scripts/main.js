@@ -1,8 +1,4 @@
 
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import '../styles/swiper.css'
 import '../styles/style.css'
 
 import Swiper from 'swiper';
