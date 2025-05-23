@@ -18,3 +18,5 @@ Cílem je oslovit zákazníky z vyšší příjmové skupiny, nabídnout širok�
 
 # Figma: 
 https://www.figma.com/design/YAsR8AkcEDPAJy05cbTiga/DoušaMichal?node-id=0-1&m=dev&t=1GLE4vD4mvqTtk3B-1
+# Web:
+https://pslib-cz.github.io/2024-p2a-web-volnyprojekt-MachalDouska/
