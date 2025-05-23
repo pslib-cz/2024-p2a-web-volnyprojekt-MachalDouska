@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.querySelector(".hamburger-nav"),e=document.querySelector(".hamburger-btn");e.addEventListener("click",()=>{e.classList.toggle("active"),t.classList.toggle("active")})});
